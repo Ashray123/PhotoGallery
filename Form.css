@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 60px;
+    background: #555;
+    
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+  
+body{
+margin: 0;
+padding: 0;
+text-transform: uppercase;
+font-weight: bold;
+background-color: #E8CEBF;
+}
+
+nav{
+    overflow: hidden;
+    background:#DDAF94;
+    line-height: 4;
+    
+}
+input[type=text] {
+    border: 10px;
+    border-radius: 4px;
+    transition: width 0.4s ease-in-out;
+    height:40px;
+
+}
+    input[type=text]:focus {
+        width: 30%;
+      }
