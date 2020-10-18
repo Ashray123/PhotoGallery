@@ -1,5 +1,5 @@
 Steps to run are:
 
-Clone the repository .
-open Form.css in a browser 
-and the webpage will be displayed.
+1.Clone the repository .
+2.open Form.css in a browser 
+3.and the webpage will be displayed.
