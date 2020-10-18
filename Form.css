@@ -1,21 +1,24 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .header img {
-    float: left;
-    width: 100px;
-    height: 60px;
-    background: #555;
-    
-  }
+  float: left;
+  width: 100px;
+  height: 60px;
+  background: #555;
   
-  .header h1 {
-    position: relative;
-    top: 18px;
-    left: 10px;
-  }
-  
+}
+
+.header h1 {
+  position: relative;
+  top: 0px;
+  left: 300px;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Monoton', cursive;
+  color:#b14b0f;
+}
+
 body{
 margin: 0;
 padding: 0;
@@ -25,18 +28,63 @@ background-color: #E8CEBF;
 }
 
 nav{
-    overflow: hidden;
-    background:#DDAF94;
-    line-height: 4;
-    
+  margin-left:2px;
+  overflow: hidden;
+  background:hsl(22, 52%, 72%);
+  line-height: 4;
+  border-radius:25px;
+  
 }
 input[type=text] {
-    border: 10px;
-    border-radius: 4px;
-    transition: width 0.4s ease-in-out;
-    height:40px;
+  margin-left:6px;
+  border-color: hsl(22, 52%, 72%);
+   border-radius:20px;
+  transition: width 0.4s ease-in-out;
+  height:40px;
+  margin-right:4px;
+
 
 }
-    input[type=text]:focus {
-        width: 30%;
+  input[type=text]:focus {
+      width: 30%;
+    }
+    input[type=button] {
+
+      background: #f6c607;
+      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 20px;
+      text-shadow:none;
+      width:9%;
+     
       }
+    input[type=button]:hover {
+      background: #12232E;
+      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 20px;
+      text-shadow:none;
+      
+      }
+
+.view{
+  width: 100%;
+  margin: 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main{
+  flex: 25%;
+  /* padding: 20px; */
+}
+
+@media(max-width:768px){
+  .main{
+    flex:50%;
+  }
+}
+.viewImage{
+  width: 250px;
+  height: 250px;
+}
+
